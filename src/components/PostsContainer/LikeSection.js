@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 const LikeSection = props => {
-  const [likes, setLikes] = useState(0);
+  const [likes, setLikes] = useState(props.likes);
   const addLikes = () => {
     setLikes(likes => likes + 1);
   };

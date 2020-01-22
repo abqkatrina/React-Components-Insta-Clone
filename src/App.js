@@ -8,7 +8,7 @@ import dummyData from "./dummy-data.js";
 
 const App = () => {
 
-  const [data, setData] = useState(dummyData)
+  const [data] = useState(dummyData)
   console.log('Apps', data);
 
 

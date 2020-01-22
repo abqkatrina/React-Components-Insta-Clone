@@ -10,7 +10,8 @@ const PostsPage = props => {
 
   return (
     <div className="posts-container-wrapper">
-      <Post data={props.data}/>
+  {  props.data.map((it) => <Post key={it.username} data={it}/> )}
+     
     </div>
   );
 };
