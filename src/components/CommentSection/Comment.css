@@ -11,16 +11,16 @@
   width: 100%;
 }
 .comment-form input {
-  width: 100%;
+  width: 90%;
   font-size: 14px;
   padding: 10px;
   border: none;
   border-top: 1px solid #efefef;
-  color: #999;
+  color: coral;
 }
 .user {
   font-size: 14px;
   margin-left: 5px;
-  color: black;
+  color: coral;
   font-weight: bold;
 }
